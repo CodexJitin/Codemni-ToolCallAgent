@@ -1,0 +1,17 @@
+# ToolCall Agent Requirements
+# Install only the LLM providers you need
+
+# Core (no external LLM dependencies)
+# The agent itself has no required dependencies
+
+# Optional: LLM Providers (install what you need)
+# Uncomment the ones you want to use:
+
+openai>=1.0.0          # For OpenAI (GPT-4, GPT-3.5, etc.)
+anthropic>=0.7.0       # For Anthropic Claude
+groq>=0.4.0            # For Groq
+google-generativeai>=0.3.0  # For Google Gemini
+ollama>=0.1.0          # For Ollama (local models)
+
+# Optional: Environment variable management
+# python-dotenv>=1.0.0   # For .env file support
